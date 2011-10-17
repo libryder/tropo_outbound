@@ -3,7 +3,7 @@ require 'restclient'
 methods_for :dialplan do
   
   def call_out(number)
-    puts 'doing it!'
+    puts "Calling: #{number}"
     ahn_log.tropo_outbound.debug '*'*10
     
     # Construct the URI to call 
