@@ -14,7 +14,7 @@ methods_for :dialplan do
 
     # Now request Tropo AGItate to make the call
     #ahn_log.tropo_outbound.debug 
-    ahn_log.tropo_outbound.debug RestClient.get uri 
+    puts RestClient.get uri 
   end
   
 end
