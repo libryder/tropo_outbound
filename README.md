@@ -9,8 +9,8 @@ Usage
 -----
 From your adhearsion application's root directory:
 
-cd components
-git clone git@github.com:libryder/tropo_outbound.git
+    cd components
+    git clone git@github.com:libryder/tropo_outbound.git
 
 Edit tropo_outbound.yml
 
