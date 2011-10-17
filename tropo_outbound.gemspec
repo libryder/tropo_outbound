@@ -1,7 +1,7 @@
 GEM_FILES = %w{
   tropo_outbound.gemspec
   lib/tropo_outbound.rb
-  config/tropo_outbound.yml
+  tropo_outbound.yml
 }
 
 Gem::Specification.new do |s|
